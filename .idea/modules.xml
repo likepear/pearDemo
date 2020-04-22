@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/JavaSeDemo/JavaSeDemo.iml" filepath="$PROJECT_DIR$/JavaSeDemo/JavaSeDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RabbitMqDemo/RabbitMqDemo.iml" filepath="$PROJECT_DIR$/RabbitMqDemo/RabbitMqDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pearDemo.iml" filepath="$PROJECT_DIR$/pearDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springDemo/springDemo.iml" filepath="$PROJECT_DIR$/springDemo/springDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/stackAndLink/stackAndLink.iml" filepath="$PROJECT_DIR$/stackAndLink/stackAndLink.iml" />
+    </modules>
+  </component>
+</project>

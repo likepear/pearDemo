@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:contexxt="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <bean name="helloTest" class="com.likepear.test.IocTest">
+
+    </bean>
+
+    <!--  开启组件扫描  -->
+    <contexxt:component-scan base-package="com.likepear.aop"></contexxt:component-scan>
+    <!-- 开启自动代理 -->
+    <aop:aspectj-autoproxy expose-proxy="true"  ></aop:aspectj-autoproxy>
+
+</beans>
